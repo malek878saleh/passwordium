@@ -24,3 +24,4 @@ Clone the repository:
 ```bash
 git clone https://github.com/malek878saleh/passwordium.git
 cd passwordium
+Developed by:Malek F Saleh
