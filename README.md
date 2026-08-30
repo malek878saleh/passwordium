@@ -96,3 +96,43 @@ After installation, open **PowerShell** or **Command Prompt** and check:
 
 ```powershell
 git --version
+2. Install Python
+
+Download Python from:
+
+https://www.python.org/downloads/windows/
+
+During installation, IMPORTANT: check:
+
+Add Python.exe to PATH
+
+Then click Install Now.
+
+After installation, open a new PowerShell window and check:
+
+python --version
+
+You should see something similar to:
+
+Python 3.x.x
+3. Clone Passwordium
+
+Open PowerShell and run:
+
+git clone https://github.com/malek878saleh/passwordium.git
+4. Enter the Passwordium folder
+cd passwordium
+5. Create a virtual environment
+python -m venv venv
+6. Activate the virtual environment
+.\venv\Scripts\Activate.ps1
+
+You should now see (venv) at the beginning of the terminal:
+
+(venv) PS C:\Users\YourName\passwordium>
+7. Install the required dependencies
+pip install -r requirements.txt
+8. Start Passwordium
+python app.py
+
+Passwordium should now start.
