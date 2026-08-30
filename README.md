@@ -1,5 +1,7 @@
 # Passwordium 🔐
 
+Developed By: Malek F Saleh 
+
 A simple desktop password manager built with Python.
 
 ![Passwordium Screenshot](screenshot.png)
@@ -24,4 +26,3 @@ Clone the repository:
 ```bash
 git clone https://github.com/malek878saleh/passwordium.git
 cd passwordium
-Developed by:Malek F Saleh
