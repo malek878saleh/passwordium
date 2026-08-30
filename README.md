@@ -79,3 +79,18 @@ Run the application:
 python3 app.py
 
 Passwordium should now start.
+
+## Installation & Setup — Windows
+
+Follow these steps to install and run Passwordium on Windows.
+
+### 1. Install Git
+
+Download and install Git for Windows:
+
+https://git-scm.com/download/win
+
+After installation, open **PowerShell** or **Command Prompt** and check:
+
+```powershell
+git --version
